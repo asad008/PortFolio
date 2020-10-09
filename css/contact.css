@@ -1,0 +1,122 @@
+body {
+    background-color: #f6f5f5;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+a {
+    text-decoration: none !important;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+nav {
+    background-color: #e3f2fd !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+}
+
+.navbar-brand {
+    font-family: 'Niconne', cursive;
+    font-size: 28px !important;
+    margin-left: 25px;
+
+    animation: heartBeat !important;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s !important;
+    animation-iteration-count: infinite !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.navbar-nav {
+    margin-right: 50px;
+}
+
+
+
+
+.box {
+    
+    margin-top: 12% !important;
+    
+}
+
+.instagram .box-part:hover{
+    background-color:#e4405f !important ;
+}
+.twitter .box-part:hover{
+    background-color:#55acee !important ;
+}
+.facebook .box-part:hover{
+    background-color:#3b5999 !important ;
+}
+
+.pinterest .box-part:hover{
+    background-color:#bd081c !important ;
+}
+.google .box-part:hover{
+    background-color:#dd4b39 !important ;
+}
+.github .box-part:hover{
+    background-color:#0077B5 !important ;
+    background: white;
+}
+.box-part {
+    background: rgba(0, 0, 0, 0.623);
+    
+    border-radius: 9%;
+    padding: 60px 10px;
+    margin: 30px 0px;
+    /*box-shadow: 0 0 13px 0px rgba(0, 0, 0, 0.445);*/
+}
+.box-part:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    
+    box-shadow: 0 0 13px 0px rgba(0, 0, 0, 0.61);
+}
+
+.text {
+    margin: 20px 0px;
+}
+h4{
+    color:#f0f0f0 !important;
+}
+
+.fa {
+    color: #f0f0f0;
+}
+
+footer {
+    color: black;
+    background-color: #bcdbf1;
+    font-weight: bold;
+    bottom: 0;
+    margin-bottom: 0;
+}
+
+footer a {
+    color: #01CCFF;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: red;
+    font-weight: bold;
+}
